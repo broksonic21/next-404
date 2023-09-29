@@ -6,7 +6,7 @@ export default function NotFoundPage({foo: bar}) {
   
 
   const getStaticProps: GetStaticProps = async ({ preview = false }) => {
-    const pageData = {foo: "bar2"};
+    const pageData = {foo: "text should show"};
     return {
       props: { ...pageData, preview },
     };
